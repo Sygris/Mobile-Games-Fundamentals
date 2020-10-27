@@ -1,7 +1,97 @@
 fileFormatVersion: 2
 guid: a031617160a73024db39758ed0787618
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2172366019450192226
+    second: Melee_Ground_0
+  - first:
+      213: -3966228860729348902
+    second: Melee_Ground_1
+  - first:
+      213: -1879217165426167495
+    second: Melee_Ground_2
+  - first:
+      213: 3125311880352935314
+    second: Melee_Ground_3
+  - first:
+      213: 698720520749110651
+    second: Melee_Ground_4
+  - first:
+      213: -8644924248584571293
+    second: Melee_Ground_5
+  - first:
+      213: -7090964473313094269
+    second: Melee_Ground_6
+  - first:
+      213: 3900377452086106659
+    second: Melee_Ground_7
+  - first:
+      213: 3014577842456617800
+    second: Melee_Ground_8
+  - first:
+      213: -5128544612204700545
+    second: Melee_Ground_9
+  - first:
+      213: -7878911769777348137
+    second: Melee_Ground_10
+  - first:
+      213: 4624087095404473127
+    second: Melee_Ground_11
+  - first:
+      213: -5772631138353936678
+    second: Melee_Ground_12
+  - first:
+      213: -7419969663179003357
+    second: Melee_Ground_13
+  - first:
+      213: -6916968442107587665
+    second: Melee_Ground_14
+  - first:
+      213: -3538788913081136548
+    second: Melee_Ground_15
+  - first:
+      213: -1949616008832418521
+    second: Melee_Ground_16
+  - first:
+      213: 2245910332894841274
+    second: Melee_Ground_17
+  - first:
+      213: -3163811134224109114
+    second: Melee_Ground_18
+  - first:
+      213: 5814257457043959832
+    second: Melee_Ground_19
+  - first:
+      213: -6354469149311403465
+    second: Melee_Ground_20
+  - first:
+      213: -7056539775539025124
+    second: Melee_Ground_21
+  - first:
+      213: -8023480410903170273
+    second: Melee_Ground_22
+  - first:
+      213: -3323811605691717955
+    second: Melee_Ground_23
+  - first:
+      213: 4421606608856472435
+    second: Melee_Ground_24
+  - first:
+      213: 3161711078490915464
+    second: Melee_Ground_25
+  - first:
+      213: -2418874283859498088
+    second: Melee_Ground_26
+  - first:
+      213: 8658365066683559129
+    second: Melee_Ground_27
+  - first:
+      213: 4058355175266825151
+    second: Melee_Ground_28
+  - first:
+      213: 470786731604247622
+    second: Melee_Ground_29
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +130,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +161,663 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Melee_Ground_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1110
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eba807d943ad1e0800000000000000
+      internalID: -2172366019450192226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1110
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc235a7ddf15f8c0800000000000000
+      internalID: -3966228860729348902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_2
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1110
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931f4fec1fdabe5e0800000000000000
+      internalID: -1879217165426167495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_3
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1110
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29daeb8b8965f5b20800000000000000
+      internalID: 3125311880352935314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_4
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1110
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75d6849c9a52b900800000000000000
+      internalID: 698720520749110651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 888
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366b4fcd23f070880800000000000000
+      internalID: -8644924248584571293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 888
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385124d8165d79d90800000000000000
+      internalID: -7090964473313094269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_7
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 888
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a1989a0ace02630800000000000000
+      internalID: 3900377452086106659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_8
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 888
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843e367639ee5d920800000000000000
+      internalID: 3014577842456617800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_9
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 888
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c9bcee8dfb3d8b0800000000000000
+      internalID: -5128544612204700545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 666
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1e6c95d7b78a290800000000000000
+      internalID: -7878911769777348137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 666
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b2d0cb6be0c2040800000000000000
+      internalID: 4624087095404473127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_12
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 666
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad60e0b709e73efa0800000000000000
+      internalID: -5772631138353936678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_13
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 666
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a6a0e67e8f60990800000000000000
+      internalID: -7419969663179003357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_14
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 666
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3179d79ddf100a0800000000000000
+      internalID: -6916968442107587665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a45bc9b32b3eec0800000000000000
+      internalID: -3538788913081136548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_16
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 444
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72df029c19291f4e0800000000000000
+      internalID: -1949616008832418521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 444
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab983956c831b2f10800000000000000
+      internalID: 2245910332894841274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_18
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 444
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c175283982e714d0800000000000000
+      internalID: -3163811134224109114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_19
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 444
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81075c71a5460b050800000000000000
+      internalID: 5814257457043959832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a7d13e9f360d7a0800000000000000
+      internalID: -6354469149311403465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 222
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1be4971672221e90800000000000000
+      internalID: -7056539775539025124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_22
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 222
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13bfc5931fd6a090800000000000000
+      internalID: -8023480410903170273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_23
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 222
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6ac6674f27fd1d0800000000000000
+      internalID: -3323811605691717955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_24
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 222
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bd869b8c3bc5d30800000000000000
+      internalID: 4421606608856472435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8824ed37977a0eb20800000000000000
+      internalID: 3161711078490915464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_26
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b2a3297ae6e6ed0800000000000000
+      internalID: -2418874283859498088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_27
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc23577721b82870800000000000000
+      internalID: 8658365066683559129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_28
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3b522a78c225830800000000000000
+      internalID: 4058355175266825151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melee_Ground_29
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 0
+        width: 206
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6440d3eb902988600800000000000000
+      internalID: 470786731604247622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,82 @@
 fileFormatVersion: 2
 guid: 03fbb3ef020c4584a82435404fbc3db2
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7656786675036259441
+    second: Ranged_Ground_0
+  - first:
+      213: 576091743229185529
+    second: Ranged_Ground_1
+  - first:
+      213: -8956062509742281088
+    second: Ranged_Ground_2
+  - first:
+      213: -126922676522682628
+    second: Ranged_Ground_3
+  - first:
+      213: -4220091683396443770
+    second: Ranged_Ground_4
+  - first:
+      213: 3472097461873016716
+    second: Ranged_Ground_5
+  - first:
+      213: -938104253581202346
+    second: Ranged_Ground_6
+  - first:
+      213: 2231859594702235359
+    second: Ranged_Ground_7
+  - first:
+      213: -3711199889518359431
+    second: Ranged_Ground_8
+  - first:
+      213: -7826015715246541541
+    second: Ranged_Ground_9
+  - first:
+      213: 1776950165235683462
+    second: Ranged_Ground_10
+  - first:
+      213: 4755913233139523600
+    second: Ranged_Ground_11
+  - first:
+      213: -5100980310195021437
+    second: Ranged_Ground_12
+  - first:
+      213: -8836131557309956706
+    second: Ranged_Ground_13
+  - first:
+      213: 591534901947635419
+    second: Ranged_Ground_14
+  - first:
+      213: -617911673680982593
+    second: Ranged_Ground_15
+  - first:
+      213: -4932058569911667107
+    second: Ranged_Ground_16
+  - first:
+      213: 9083656540089482695
+    second: Ranged_Ground_17
+  - first:
+      213: 4218614590965454195
+    second: Ranged_Ground_18
+  - first:
+      213: 6525508532479583782
+    second: Ranged_Ground_19
+  - first:
+      213: 1192793230386319734
+    second: Ranged_Ground_20
+  - first:
+      213: 8141645670574400767
+    second: Ranged_Ground_21
+  - first:
+      213: -4194951934229351639
+    second: Ranged_Ground_22
+  - first:
+      213: 5764388649496591914
+    second: Ranged_Ground_23
+  - first:
+      213: -2663230687449934712
+    second: Ranged_Ground_24
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +115,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +146,558 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Ranged_Ground_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 812
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1740b7ed9ee524a60800000000000000
+      internalID: 7656786675036259441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 812
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd06316360bef700800000000000000
+      internalID: 576091743229185529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 812
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e2e90499ca5b380800000000000000
+      internalID: -8956062509742281088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 812
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf67ce78f741d3ef0800000000000000
+      internalID: -126922676522682628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 812
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681239319f83f65c0800000000000000
+      internalID: -4220091683396443770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 812
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ff970ee3e5f2030800000000000000
+      internalID: 3472097461873016716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c6203d62f2bf2f0800000000000000
+      internalID: -938104253581202346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_7
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 609
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd626caf97829fe10800000000000000
+      internalID: 2231859594702235359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 609
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c0acefc5b2f7cc0800000000000000
+      internalID: -3711199889518359431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 609
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15fa16cb28646390800000000000000
+      internalID: -7826015715246541541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_10
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 609
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680d176b2cef8a810800000000000000
+      internalID: 1776950165235683462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 609
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0106cdb33e5600240800000000000000
+      internalID: 4755913233139523600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 406
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389509c1f6da539b0800000000000000
+      internalID: -5100980310195021437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 406
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dbbe91a21cf5580800000000000000
+      internalID: -8836131557309956706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 406
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd695d6fbdd853800800000000000000
+      internalID: 591534901947635419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 406
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd8dab4b9cbc67f0800000000000000
+      internalID: -617911673680982593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 406
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d567ef0acdecd8bb0800000000000000
+      internalID: -4932058569911667107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_17
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 406
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdffa5fe71af0e70800000000000000
+      internalID: 9083656540089482695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 203
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37596ca8e978b8a30800000000000000
+      internalID: 4218614590965454195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 203
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626e939cf634f8a50800000000000000
+      internalID: 6525508532479583782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 203
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671daa39f17ad8010800000000000000
+      internalID: 1192793230386319734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 203
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff42fa1e99fecf070800000000000000
+      internalID: 8141645670574400767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 203
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923fb6e017988c5c0800000000000000
+      internalID: -4194951934229351639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_23
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 203
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eb9888fe83fff40800000000000000
+      internalID: 5764388649496591914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ranged_Ground_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88490a7dccd4a0bd0800000000000000
+      internalID: -2663230687449934712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

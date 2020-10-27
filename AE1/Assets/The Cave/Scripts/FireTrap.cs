@@ -6,7 +6,7 @@ public class FireTrap : MonoBehaviour
 {
 
     private ParticleSystem Ps;
-    private Player Player;
+    private Goblin Player;
 
     public float Interval;
     private float CurrentTimer;
@@ -49,7 +49,7 @@ public class FireTrap : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Ps.Play();
-            Player = collision.GetComponent<Player>();
+            Player = collision.GetComponent<Goblin>();
             Debug.Log("Warning: Fire");
 
             IsPlayerInTheRoom = !IsPlayerInTheRoom;

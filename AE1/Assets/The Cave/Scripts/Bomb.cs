@@ -56,7 +56,7 @@ public class Bomb : MonoBehaviour
 
     bool IsPlayerInsideRadius()
     {
-        Vector2 Distance = transform.position - FindObjectOfType<Player>().transform.position;
+        Vector2 Distance = transform.position - FindObjectOfType<Goblin>().transform.position;
 
         if (Distance.x <= BombRadius)
             IsPlayerInTheRoom = true;
