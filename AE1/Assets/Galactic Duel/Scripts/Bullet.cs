@@ -68,14 +68,10 @@ public class Bullet : MonoBehaviour
     private void RemoveBulletFromList()
     {
         if (Bulletcolor == "red")
-        {
             BulletManager.ListOfRedBullets.Remove(gameObject);
-        }
 
         if (Bulletcolor == "blue")
-        {
             BulletManager.ListOfBlueBullets.Remove(gameObject);
-        }
 
     }
 
