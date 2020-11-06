@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Player : MonoBehaviour
 {
@@ -13,7 +11,9 @@ public class Player : MonoBehaviour
     private bool IsRunning;
     private bool IsJumping;
     private bool IsGrounded;
+    internal bool IsPlayerFacingRight;
 
+    public int Health;
     public float Speed;
     public float JumpForce;
     public float RayCastDistance;
@@ -30,15 +30,16 @@ public class Player : MonoBehaviour
 
 
         ScreenBoundaries = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
-
     }
 
     void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
-        {
             IsJumping = true;
+
+        if (Input.GetKeyUp(KeyCode.Z))
+        {
+            GetHurt();
         }
     }
 
@@ -101,9 +102,30 @@ public class Player : MonoBehaviour
     void Flip()
     {
         if (Input.GetAxis("Horizontal") > 0f)
+        {
             transform.eulerAngles = new Vector3(0, 0, 0);
+            IsPlayerFacingRight = true;
+        }
+
 
         if (Input.GetAxis("Horizontal") < 0f)
+        {
             transform.eulerAngles = new Vector3(0, 180, 0);
+            IsPlayerFacingRight = false;
+        }
+    }
+
+    void GetHurt()
+    {
+        Health--;
+        
+        if (Health >= 1)
+        {
+            animator.SetTrigger("GetHurt");
+        }
+        else
+        {
+            animator.SetTrigger("Dead");
+        }
     }
 }
