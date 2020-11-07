@@ -8,16 +8,20 @@ public class Player : MonoBehaviour
 
     private float SpriteWidth, SpriteHeight;
 
+    internal bool IsInputLocked;
     private bool IsRunning;
     private bool IsJumping;
     private bool IsGrounded;
-    internal bool IsPlayerFacingRight;
+    internal bool IsPlayerFacingRight = true;
 
     public int Health;
     public float Speed;
     public float JumpForce;
+    public float HurtForceX;
+    public float HurtForceY;
     public float RayCastDistance;
     public LayerMask GroundLayer;
+    public ParticleSystem Particle;
 
 
     void Start()
@@ -34,18 +38,24 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
-            IsJumping = true;
-
-        if (Input.GetKeyUp(KeyCode.Z))
+        if (!IsInputLocked)
         {
-            GetHurt();
+            if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
+                IsJumping = true;
+
+            if (Input.GetKeyUp(KeyCode.Z))
+            {
+                GetHurt();
+            }
         }
     }
 
     void FixedUpdate()
     {
-        Move();
+        if (!IsInputLocked)
+        {
+            Move();
+        }
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, RayCastDistance, GroundLayer);
 
@@ -118,14 +128,40 @@ public class Player : MonoBehaviour
     void GetHurt()
     {
         Health--;
-        
+
         if (Health >= 1)
         {
             animator.SetTrigger("GetHurt");
+
+            if (IsPlayerFacingRight)
+            {
+                rigid.AddForce(new Vector2(-HurtForceX, HurtForceY));
+            }
+            else
+            {
+                rigid.AddForce(new Vector2(HurtForceX, HurtForceY));
+            }
         }
         else
         {
             animator.SetTrigger("Dead");
         }
+    }
+
+    void SetInputLocked(string message)
+    {
+        if (message.ToLower().Equals("true"))
+        {
+            IsInputLocked = true;
+        }
+        else
+        {
+            IsInputLocked = false;
+        }
+    }
+
+    void Dust()
+    {
+        Particle.Play();
     }
 }

@@ -9,7 +9,7 @@ public class WeaponManager : MonoBehaviour
     public GameObject Arrow;
     public Transform ShootingPoint;
     public Text CastingUI;
-    
+
     private Animator animator;
     private int CurrentWeapon;
 
@@ -26,36 +26,38 @@ public class WeaponManager : MonoBehaviour
                 Weapons[i].SetActive(true);
                 CurrentWeapon = i;
             }
-
         }
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (!GetComponent<Player>().IsInputLocked)
         {
-            SetAllFalse();
-            Weapons[0].SetActive(true);
-            CurrentWeapon = 0;
-        }
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                SetAllFalse();
+                Weapons[0].SetActive(true);
+                CurrentWeapon = 0;
+            }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            SetAllFalse();
-            Weapons[1].SetActive(true);
-            CurrentWeapon = 1;
-        }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                SetAllFalse();
+                Weapons[1].SetActive(true);
+                CurrentWeapon = 1;
+            }
 
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            SetAllFalse();
-            Weapons[2].SetActive(true);
-            CurrentWeapon = 2;
-        }
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                SetAllFalse();
+                Weapons[2].SetActive(true);
+                CurrentWeapon = 2;
+            }
 
-        if (Input.GetMouseButtonUp(0))
-        {
-            Attack();
+            if (Input.GetMouseButtonUp(0))
+            {
+                Attack();
+            }
         }
     }
 
