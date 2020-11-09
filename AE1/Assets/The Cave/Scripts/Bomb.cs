@@ -46,6 +46,8 @@ public class Bomb : MonoBehaviour
         }
 
         Destroy(gameObject);
+
+        FindObjectOfType<MenuManager>().ShowMenu();
     }
 
     private void OnDrawGizmosSelected()

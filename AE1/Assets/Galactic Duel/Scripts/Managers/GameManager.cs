@@ -2,7 +2,6 @@
 
 public static class GameManager
 {
-
     public static void GameOver()
     {
         string Winner = "";
@@ -16,6 +15,8 @@ public static class GameManager
 
             ship.SetActive(false);
         }
+
+        GameObject.FindGameObjectWithTag("Star").SetActive(false);
 
         Debug.Log(Winner + " WON");
 

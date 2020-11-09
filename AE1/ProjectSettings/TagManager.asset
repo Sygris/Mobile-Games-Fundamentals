@@ -9,6 +9,8 @@ TagManager:
   - Red Bullet
   - Boundarie
   - Door
+  - Canvas
+  - Star
   layers:
   - Default
   - TransparentFX

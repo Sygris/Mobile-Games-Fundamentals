@@ -5,12 +5,12 @@ public class Weapon : MonoBehaviour
 {
     public string ShootButton;
     public GameObject BulletPrefab;
-    public float Interval;
-    public float ArcAttackPressTime;
-    public int ArcLength;
 
     private float CurrentTime;
-    private float PressTime;
+    public float Interval;
+
+    public float ArcAttackPressTime;
+    public int ArcLength;
 
     void Update()
     {

@@ -44,9 +44,7 @@ public class Player : MonoBehaviour
                 IsJumping = true;
 
             if (Input.GetKeyUp(KeyCode.Z))
-            {
                 GetHurt();
-            }
         }
     }
 
@@ -151,13 +149,9 @@ public class Player : MonoBehaviour
     void SetInputLocked(string message)
     {
         if (message.ToLower().Equals("true"))
-        {
             IsInputLocked = true;
-        }
         else
-        {
             IsInputLocked = false;
-        }
     }
 
     void Dust()

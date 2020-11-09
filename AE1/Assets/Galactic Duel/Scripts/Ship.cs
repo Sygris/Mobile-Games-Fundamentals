@@ -83,6 +83,7 @@ public class Ship : MonoBehaviour
         if(Health <= 0)
         {
             GameManager.GameOver();
+            FindObjectOfType<MenuManager>().ShowMenu();
         }
     }
 

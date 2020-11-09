@@ -16,6 +16,11 @@ public class Goblin : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            FindObjectOfType<MenuManager>().ShowMenu();
+        }
+
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -41,16 +46,14 @@ public class Goblin : MonoBehaviour
 
     void CheckForButton()
     {
-        Debug.DrawLine(transform.position, transform.position + new Vector3(RaycastLenght, 0, 0), Color.magenta);
-
         var Hits2D = Physics2D.RaycastAll(transform.position, Vector2.right, RaycastLenght);
 
-        foreach (var item in Hits2D)
+        foreach (var Hit in Hits2D)
         {
-            if (item.transform.name == "Button")
+            if (Hit.transform.name == "Button")
             {
-                item.transform.GetComponent<JustAnotherScript>().OpenDungeonDoor();
-                item.transform.GetComponent<BoxCollider2D>().enabled = false;
+                Hit.transform.GetComponent<JustAnotherScript>().OpenDungeonDoor();
+                Hit.transform.GetComponent<BoxCollider2D>().enabled = false;
             }
         }
     }

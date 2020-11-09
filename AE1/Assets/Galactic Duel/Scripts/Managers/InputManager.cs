@@ -38,7 +38,7 @@ public class InputManager : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("Menu");
+            FindObjectOfType<MenuManager>().ShowMenu();
         }
     }
 }
