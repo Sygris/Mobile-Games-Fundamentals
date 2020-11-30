@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
 
         float Index = SceneManager.GetActiveScene().buildIndex;
 
-        if (Index % 5.0f == 0.0f)
+        if (SceneManager.GetActiveScene().buildIndex >= 5)
             MaxTime--;
     }
 
@@ -29,10 +29,17 @@ public class Timer : MonoBehaviour
 
             TimerBar.fillAmount = TimeLeft / MaxTime;
         }
+        else if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 6)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
         else
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-
     }
 }

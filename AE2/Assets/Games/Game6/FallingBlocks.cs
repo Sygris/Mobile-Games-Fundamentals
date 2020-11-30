@@ -15,4 +15,9 @@ public class FallingBlocks : MonoBehaviour
     {
         transform.Translate(Vector3.down * Speed * Time.deltaTime);
     }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
 }

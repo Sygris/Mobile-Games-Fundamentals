@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Button : MonoBehaviour
 {
@@ -62,8 +63,10 @@ public class Button : MonoBehaviour
         spriteRenderer.sprite = ButtonRed;
 
         yield return new WaitForSeconds(0.5f);
-        
-        GameObject.Find("LevelLoader").GetComponent<LevelLoader>().LoadNextLevel();
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+        //GameObject.Find("LevelLoader").GetComponent<LevelLoader>().LoadNextLevel();
         
         //GameObject.Find("Tip").SetActive(false);
     }
