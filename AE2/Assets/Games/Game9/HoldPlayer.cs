@@ -7,6 +7,8 @@ public class HoldPlayer : MonoBehaviour
     public float Speed = 1f;
     public float Fallingspeed = 5f;
 
+    public float Delay = 1.5f;
+
     private bool IsHolding = false;
     private bool IsFalling = false;
 
@@ -51,7 +53,7 @@ public class HoldPlayer : MonoBehaviour
 
         if (IsFalling)
         {
-            Rigid.velocity = new Vector2(Speed, -5);
+            StartCoroutine(Falling(Delay));
         }
     }
 
@@ -61,5 +63,14 @@ public class HoldPlayer : MonoBehaviour
         {
             IsFalling = true;
         }
+    }
+
+    IEnumerator Falling(float delay)
+    {
+        Rigid.velocity = new Vector2(Speed, -Fallingspeed);
+
+        yield return new WaitForSeconds(delay);
+
+        SceneTranstition.Lose();
     }
 }

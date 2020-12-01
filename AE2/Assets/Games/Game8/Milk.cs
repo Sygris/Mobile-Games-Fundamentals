@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Milk : MonoBehaviour
 {
@@ -47,7 +45,7 @@ public class Milk : MonoBehaviour
     {
         if (collision.transform.name == "bin")
         {
-            Debug.Log("hey");
+            SceneTranstition.Win();
         }
         
     }

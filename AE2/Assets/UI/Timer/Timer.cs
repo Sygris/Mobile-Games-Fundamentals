@@ -14,8 +14,6 @@ public class Timer : MonoBehaviour
         TimerBar = GetComponent<Image>();
         TimeLeft = MaxTime;
 
-        float Index = SceneManager.GetActiveScene().buildIndex;
-
         if (SceneManager.GetActiveScene().buildIndex >= 5)
             MaxTime--;
     }
@@ -31,15 +29,19 @@ public class Timer : MonoBehaviour
         }
         else if (SceneManager.GetActiveScene().buildIndex == 2)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneTranstition.Win();
         }
         else if (SceneManager.GetActiveScene().buildIndex == 6)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneTranstition.Win();
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 9)
+        {
+            SceneTranstition.Win();
         }
         else
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneTranstition.Lose();
         }
     }
 }

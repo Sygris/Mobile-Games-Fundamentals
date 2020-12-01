@@ -29,7 +29,6 @@ public class Ball : MonoBehaviour
                 {
                     if (Hit.transform == transform)
                     {
-                        Debug.Log("BU");
                         Rigid.AddForce(new Vector2(0, JumpForce));
                     }
                 }
@@ -40,6 +39,6 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneTranstition.Lose();
     }
 }

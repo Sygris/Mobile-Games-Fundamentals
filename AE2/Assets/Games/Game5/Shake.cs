@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Shake : MonoBehaviour
 {
     private Vector3 accelerationDir;
     private List<Rigidbody2D> rigidbody2Ds = new List<Rigidbody2D>();
+
+    public float Delay;
 
     void Start()
     {
@@ -22,12 +23,20 @@ public class Shake : MonoBehaviour
 
         if (accelerationDir.sqrMagnitude >= 5f)
         {
-            foreach (var coin in rigidbody2Ds)
-            {
-                coin.isKinematic = false;
-
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            }
+            StartCoroutine(DropCoins(Delay));
         }
+    }
+
+    IEnumerator DropCoins(float delay)
+    {
+        foreach (var coin in rigidbody2Ds)
+        {
+            coin.isKinematic = false;
+        }
+
+        yield return new WaitForSeconds(delay);
+        
+        SceneTranstition.Win();
+
     }
 }

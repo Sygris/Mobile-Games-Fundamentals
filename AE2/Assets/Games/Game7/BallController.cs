@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class BallController : MonoBehaviour
 {
@@ -68,13 +67,19 @@ public class BallController : MonoBehaviour
         rb.AddForce(ClampedForce, ForceMode2D.Impulse);
     }
 
-    private void OnBecameInvisible()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("LOST");
+        if (collision.gameObject.layer == 8)
+        {
+            SceneTranstition.Lose();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // REMOVE USING
+        if (collision.gameObject.name == "Circle")
+        {
+            SceneTranstition.Win();
+        }
     }
 }

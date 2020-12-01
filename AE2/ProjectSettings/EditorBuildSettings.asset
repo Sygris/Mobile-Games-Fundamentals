@@ -29,4 +29,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game7.unity
     guid: 57a6722c65450b040a3f4ac41944843c
+  - enabled: 1
+    path: Assets/Scenes/Game8.unity
+    guid: e9a1773733f199640bad1f66dae13e9a
+  - enabled: 1
+    path: Assets/Scenes/Game9.unity
+    guid: f2a9a41cd4d9ee74bbaa508ccbf643d9
+  - enabled: 1
+    path: Assets/Scenes/SceneTransition/Lose/Lose.unity
+    guid: 62fd215f5be78af48a4bc6203927acef
+  - enabled: 1
+    path: Assets/Scenes/SceneTransition/Win/Win.unity
+    guid: af8be9cdadcd9984e8aca6447149e953
   m_configObjects: {}
