@@ -41,4 +41,9 @@ public static class SceneTranstition
     {
         SceneManager.LoadScene(CurrentLevel);
     }
+
+    public static int GetCurrentLevel()
+    {
+        return CurrentLevel;
+    }
 }

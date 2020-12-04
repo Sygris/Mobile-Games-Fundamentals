@@ -20,28 +20,33 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-        
         if (TimeLeft > 0)
         {
             TimeLeft -= Time.deltaTime;
 
             TimerBar.fillAmount = TimeLeft / MaxTime;
         }
-        else if (SceneManager.GetActiveScene().buildIndex == 2)
-        {
-            SceneTranstition.Win();
-        }
-        else if (SceneManager.GetActiveScene().buildIndex == 6)
-        {
-            SceneTranstition.Win();
-        }
-        else if (SceneManager.GetActiveScene().buildIndex == 9)
-        {
-            SceneTranstition.Win();
-        }
         else
         {
-            SceneTranstition.Lose();
+            switch (SceneManager.GetActiveScene().buildIndex)
+            {
+                case 2:
+                    SceneTranstition.Win();
+                    break;
+                case 6:
+                    SceneTranstition.Win();
+                    break;
+                case 9:
+                    SceneTranstition.Win();
+                    break;
+                case 10:
+                    break;
+                default:
+                    SceneTranstition.Lose();
+                    break;
+            }
         }
     }
+
+    public float GetTimeLeft() { return TimeLeft; }
 }
