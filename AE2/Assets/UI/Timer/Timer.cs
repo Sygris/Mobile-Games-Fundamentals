@@ -12,10 +12,14 @@ public class Timer : MonoBehaviour
     void Start()
     {
         TimerBar = GetComponent<Image>();
-        TimeLeft = MaxTime;
 
         if (SceneManager.GetActiveScene().buildIndex >= 5)
             MaxTime--;
+
+        if (SceneManager.GetActiveScene().buildIndex == 11)
+            MaxTime = 15f;
+
+        TimeLeft = MaxTime;
     }
 
     void Update()
@@ -40,6 +44,9 @@ public class Timer : MonoBehaviour
                     SceneTranstition.Win();
                     break;
                 case 10:
+                    break;
+                case 11:
+                    SceneTranstition.WonGame();
                     break;
                 default:
                     SceneTranstition.Lose();

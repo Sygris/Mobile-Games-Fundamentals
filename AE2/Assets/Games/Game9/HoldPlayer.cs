@@ -13,10 +13,12 @@ public class HoldPlayer : MonoBehaviour
     private bool IsFalling = false;
 
     private Rigidbody2D Rigid;
+    private Animator animator;
 
     private void Start()
     {
         Rigid = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()

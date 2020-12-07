@@ -39,9 +39,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Game10.unity
     guid: 2a70a310cb65d5d418e63f66a2c01739
   - enabled: 1
+    path: Assets/Scenes/Game11.unity
+    guid: e8c2498421135294294b21fbefed1265
+  - enabled: 1
     path: Assets/Scenes/SceneTransition/Lose/Lose.unity
     guid: 62fd215f5be78af48a4bc6203927acef
   - enabled: 1
     path: Assets/Scenes/SceneTransition/Win/Win.unity
     guid: af8be9cdadcd9984e8aca6447149e953
+  - enabled: 1
+    path: Assets/Scenes/SceneTransition/Win/WonGame.unity
+    guid: bd58b337f83675345b30cb076d284c13
   m_configObjects: {}

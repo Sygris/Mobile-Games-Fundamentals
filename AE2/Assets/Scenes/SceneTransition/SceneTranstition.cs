@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine.SceneManagement;
 
 public static class SceneTranstition
 {
@@ -13,6 +11,11 @@ public static class SceneTranstition
         SceneManager.LoadScene("Win");
     }
 
+    public static void WonGame()
+    {
+        SceneManager.LoadScene("WonGame");
+    }
+
     public static void Lose()
     {
         Lives--;
@@ -23,10 +26,7 @@ public static class SceneTranstition
         }
         else
         {
-            Lives = MaxLives;
-            CurrentLevel = 1;
-
-            SceneManager.LoadScene("Menu");
+            RestartGame();
         }
     }
 
@@ -40,6 +40,14 @@ public static class SceneTranstition
     public static void RestartLevel()
     {
         SceneManager.LoadScene(CurrentLevel);
+    }
+
+    public static void RestartGame()
+    {
+        CurrentLevel = 1;
+        Lives = MaxLives;
+
+        SceneManager.LoadScene("Menu");
     }
 
     public static int GetCurrentLevel()

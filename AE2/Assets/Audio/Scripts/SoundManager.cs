@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Audio;
 
 public class SoundManager : MonoBehaviour
@@ -14,8 +12,12 @@ public class SoundManager : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
+        int SoundManagers = FindObjectsOfType<SoundManager>().Length;
 
+        if (SoundManagers > 1)
+            Destroy(gameObject);
+        else
+            DontDestroyOnLoad(transform.gameObject);
     }
 
     void Update()

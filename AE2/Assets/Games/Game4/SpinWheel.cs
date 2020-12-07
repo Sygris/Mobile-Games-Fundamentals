@@ -40,7 +40,7 @@ public class SpinWheel : MonoBehaviour
                     // If true, it means that it's a horizontal swipe
                     if (Mathf.Abs(LastTouchPos.x - FirstTouchPos.x) > Mathf.Abs(LastTouchPos.y - FirstTouchPos.y))
                     {
-                        // Up Swipe
+                        // Right Swipe
                         if (LastTouchPos.x > FirstTouchPos.x)
                         {
                             transform.Rotate(new Vector3(0, 0, RotationAmount));
